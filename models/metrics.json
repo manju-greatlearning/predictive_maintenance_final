@@ -12,6 +12,64 @@
         10
       ]
     },
+    "cv_trials": [
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_split": 2
+        },
+        "mean_f1": 0.3605
+      },
+      {
+        "params": {
+          "max_depth": 3,
+          "min_samples_split": 10
+        },
+        "mean_f1": 0.3605
+      },
+      {
+        "params": {
+          "max_depth": 5,
+          "min_samples_split": 2
+        },
+        "mean_f1": 0.4734
+      },
+      {
+        "params": {
+          "max_depth": 5,
+          "min_samples_split": 10
+        },
+        "mean_f1": 0.4647
+      },
+      {
+        "params": {
+          "max_depth": 8,
+          "min_samples_split": 2
+        },
+        "mean_f1": 0.7007
+      },
+      {
+        "params": {
+          "max_depth": 8,
+          "min_samples_split": 10
+        },
+        "mean_f1": 0.6924
+      },
+      {
+        "params": {
+          "max_depth": null,
+          "min_samples_split": 2
+        },
+        "mean_f1": 0.6605
+      },
+      {
+        "params": {
+          "max_depth": null,
+          "min_samples_split": 10
+        },
+        "mean_f1": 0.6852
+      }
+    ],
     "best_params": {
       "max_depth": 8,
       "min_samples_split": 2
@@ -44,11 +102,41 @@
         1.0
       ]
     },
+    "cv_trials": [
+      {
+        "params": {
+          "max_samples": 0.7,
+          "n_estimators": 50
+        },
+        "mean_f1": 0.7644
+      },
+      {
+        "params": {
+          "max_samples": 0.7,
+          "n_estimators": 100
+        },
+        "mean_f1": 0.7625
+      },
+      {
+        "params": {
+          "max_samples": 1.0,
+          "n_estimators": 50
+        },
+        "mean_f1": 0.7631
+      },
+      {
+        "params": {
+          "max_samples": 1.0,
+          "n_estimators": 100
+        },
+        "mean_f1": 0.7703
+      }
+    ],
     "best_params": {
       "max_samples": 1.0,
       "n_estimators": 100
     },
-    "cv_best_f1": 0.776,
+    "cv_best_f1": 0.7703,
     "test_accuracy": 0.9865,
     "test_precision": 0.8596,
     "test_recall": 0.7206,
@@ -77,24 +165,68 @@
         null
       ]
     },
+    "cv_trials": [
+      {
+        "params": {
+          "max_depth": 5,
+          "n_estimators": 100
+        },
+        "mean_f1": 0.3644
+      },
+      {
+        "params": {
+          "max_depth": 5,
+          "n_estimators": 200
+        },
+        "mean_f1": 0.3599
+      },
+      {
+        "params": {
+          "max_depth": 10,
+          "n_estimators": 100
+        },
+        "mean_f1": 0.5886
+      },
+      {
+        "params": {
+          "max_depth": 10,
+          "n_estimators": 200
+        },
+        "mean_f1": 0.5747
+      },
+      {
+        "params": {
+          "max_depth": null,
+          "n_estimators": 100
+        },
+        "mean_f1": 0.6525
+      },
+      {
+        "params": {
+          "max_depth": null,
+          "n_estimators": 200
+        },
+        "mean_f1": 0.6501
+      }
+    ],
     "best_params": {
       "max_depth": null,
-      "n_estimators": 200
+      "n_estimators": 100
     },
-    "cv_best_f1": 0.6565,
-    "test_accuracy": 0.9815,
-    "test_precision": 0.8974,
-    "test_recall": 0.5147,
-    "test_f1": 0.6542,
-    "test_roc_auc": 0.9721,
+    "cv_best_f1": 0.6525,
+    "test_accuracy": 0.9805,
+    "test_precision": 0.8919,
+    "test_recall": 0.4853,
+    "test_f1": 0.6286,
+    "test_roc_auc": 0.9653,
     "confusion_matrix": [
       [
         1928,
         4
       ],
       [
-        33,
-        35
+        35,
+        33
       ]
     ]
   },
@@ -109,6 +241,36 @@
         1.0
       ]
     },
+    "cv_trials": [
+      {
+        "params": {
+          "learning_rate": 0.5,
+          "n_estimators": 50
+        },
+        "mean_f1": 0.2709
+      },
+      {
+        "params": {
+          "learning_rate": 0.5,
+          "n_estimators": 100
+        },
+        "mean_f1": 0.3385
+      },
+      {
+        "params": {
+          "learning_rate": 1.0,
+          "n_estimators": 50
+        },
+        "mean_f1": 0.405
+      },
+      {
+        "params": {
+          "learning_rate": 1.0,
+          "n_estimators": 100
+        },
+        "mean_f1": 0.4772
+      }
+    ],
     "best_params": {
       "learning_rate": 1.0,
       "n_estimators": 100
@@ -145,17 +307,83 @@
         0.1
       ]
     },
+    "cv_trials": [
+      {
+        "params": {
+          "learning_rate": 0.05,
+          "max_depth": 3,
+          "n_estimators": 100
+        },
+        "mean_f1": 0.6174
+      },
+      {
+        "params": {
+          "learning_rate": 0.05,
+          "max_depth": 3,
+          "n_estimators": 200
+        },
+        "mean_f1": 0.6956
+      },
+      {
+        "params": {
+          "learning_rate": 0.05,
+          "max_depth": 5,
+          "n_estimators": 100
+        },
+        "mean_f1": 0.7401
+      },
+      {
+        "params": {
+          "learning_rate": 0.05,
+          "max_depth": 5,
+          "n_estimators": 200
+        },
+        "mean_f1": 0.7464
+      },
+      {
+        "params": {
+          "learning_rate": 0.1,
+          "max_depth": 3,
+          "n_estimators": 100
+        },
+        "mean_f1": 0.7018
+      },
+      {
+        "params": {
+          "learning_rate": 0.1,
+          "max_depth": 3,
+          "n_estimators": 200
+        },
+        "mean_f1": 0.7293
+      },
+      {
+        "params": {
+          "learning_rate": 0.1,
+          "max_depth": 5,
+          "n_estimators": 100
+        },
+        "mean_f1": 0.74
+      },
+      {
+        "params": {
+          "learning_rate": 0.1,
+          "max_depth": 5,
+          "n_estimators": 200
+        },
+        "mean_f1": 0.7365
+      }
+    ],
     "best_params": {
       "learning_rate": 0.05,
       "max_depth": 5,
       "n_estimators": 200
     },
-    "cv_best_f1": 0.7433,
+    "cv_best_f1": 0.7464,
     "test_accuracy": 0.9865,
     "test_precision": 0.8727,
     "test_recall": 0.7059,
     "test_f1": 0.7805,
-    "test_roc_auc": 0.9675,
+    "test_roc_auc": 0.9676,
     "confusion_matrix": [
       [
         1925,
@@ -182,21 +410,87 @@
         0.1
       ]
     },
+    "cv_trials": [
+      {
+        "params": {
+          "learning_rate": 0.05,
+          "max_depth": 3,
+          "n_estimators": 100
+        },
+        "mean_f1": 0.5955
+      },
+      {
+        "params": {
+          "learning_rate": 0.05,
+          "max_depth": 3,
+          "n_estimators": 200
+        },
+        "mean_f1": 0.6644
+      },
+      {
+        "params": {
+          "learning_rate": 0.05,
+          "max_depth": 5,
+          "n_estimators": 100
+        },
+        "mean_f1": 0.721
+      },
+      {
+        "params": {
+          "learning_rate": 0.05,
+          "max_depth": 5,
+          "n_estimators": 200
+        },
+        "mean_f1": 0.7284
+      },
+      {
+        "params": {
+          "learning_rate": 0.1,
+          "max_depth": 3,
+          "n_estimators": 100
+        },
+        "mean_f1": 0.6686
+      },
+      {
+        "params": {
+          "learning_rate": 0.1,
+          "max_depth": 3,
+          "n_estimators": 200
+        },
+        "mean_f1": 0.7182
+      },
+      {
+        "params": {
+          "learning_rate": 0.1,
+          "max_depth": 5,
+          "n_estimators": 100
+        },
+        "mean_f1": 0.7411
+      },
+      {
+        "params": {
+          "learning_rate": 0.1,
+          "max_depth": 5,
+          "n_estimators": 200
+        },
+        "mean_f1": 0.7433
+      }
+    ],
     "best_params": {
-      "learning_rate": 0.05,
+      "learning_rate": 0.1,
       "max_depth": 5,
       "n_estimators": 200
     },
-    "cv_best_f1": 0.7463,
-    "test_accuracy": 0.9865,
-    "test_precision": 0.8868,
+    "cv_best_f1": 0.7433,
+    "test_accuracy": 0.988,
+    "test_precision": 0.94,
     "test_recall": 0.6912,
-    "test_f1": 0.7769,
-    "test_roc_auc": 0.9765,
+    "test_f1": 0.7966,
+    "test_roc_auc": 0.9746,
     "confusion_matrix": [
       [
-        1926,
-        6
+        1929,
+        3
       ],
       [
         21,
