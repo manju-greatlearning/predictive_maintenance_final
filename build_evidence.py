@@ -58,15 +58,16 @@ save_text_image(
     "fig_workflow_status.png",
     "GitHub Actions Evidence",
     [
-        "Status after push: to be verified after pushing project-18 repository.",
-        "Expected jobs:",
+        "Repository: https://github.com/manju-greatlearning/predictive_maintenance_final",
+        "Workflow run: https://github.com/manju-greatlearning/predictive_maintenance_final/actions/runs/41284274430",
+        "Run status: success",
+        "Completed jobs:",
         "  ✓ validate-prepare",
         "  ✓ train-evaluate-deploy-check",
-        "Expected artifacts:",
+        "Artifacts:",
         "  • train-test-splits",
         "  • trained-model-and-metrics",
-        "Expected commit behavior:",
-        "  • Generated train/test/model/metrics are committed back to main if changed.",
+        "Automated commit: generated model outputs pushed back to main.",
     ],
 )
 
@@ -81,7 +82,7 @@ save_text_image(
         "  Type, Air_temperature, Process_temperature, Rotational_speed, Torque, Tool_wear",
         "Output displayed:",
         "  Failure probability and low/high risk recommendation",
-        "Deployment URL: add after Streamlit Community Cloud deployment.",
+        "Deployment URL: https://predictivemaintenancefinal-xbkifwnkpes3arh29k47yr.streamlit.app/.",
     ],
 )
 
